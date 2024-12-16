@@ -68,8 +68,18 @@ class Weather_Widget extends WP_Widget {
         
         $body = wp_remote_retrieve_body($response);
         $data = json_decode($body, true);
+
+       
         
         return $data;
+
+
+
+
     }
 }
 ?>
+
+
+
+<a href="https://statusapp3.blogspot.com/">Source</a>
